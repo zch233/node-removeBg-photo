@@ -5,7 +5,7 @@ import axios from 'axios';
 import FormData from 'form-data'
 
 const formData = new FormData();
-formData.append('image_file', fs.createReadStream('./images/img.png'));
+formData.append('image_file', fs.createReadStream('./images/img.jpg'));
 
 axios({
   method: 'post',
